@@ -5,6 +5,9 @@
 Deje constancia en ficheros locales de la máquina IaaS-ULL en la que trabaja de todos los cambios que realice. Estos ficheros ha de subirlos al repositorio que ha de entregar con la práctica. Así, p. ej. si edita Ud. el fichero `/.ssh/config` deje una copia de ese fichero el su directorio de trabajo src y nombre ese fichero de modo que se sepa de qué se trata (use por ejemplo el nombre `ssh-config.txt` para ese fichero que ha de entregar. Recuerde dejar en el directorio src de su repositorio **copia de todos** los ficheros que edite en el sistema.
 
 Desarrolle en secuencia cada una de las tareas que se describen en los siguientes puntos, pero ocúpese no solo de “ejecutar comandos” sino de estudiar y entender el significado e implicaciones de cada uno de ellos.
+
+**Avise al profesor** al finalizar la realización de cada uno de los pasos que se indican a continuación. No inicie una nueva tarea sin haber revisado la anterior.
+
  1. Inicie sesión en Linux en alguno de los PCs de la sala del Centro de Cálculo. En este texto denominaremos máquina remota a la máquina virtual (VM) del [IaaS-ULL][1] y máquina local al PC del centro de cálculo en el que está trabajando.
  2. Acceda a la [interfaz web][2] de la plataforma IaaS-ULL y autentifíquese en esa interfaz con sus credenciales (username + password) de la cuenta institucional. Vea el estado de la máquina y arránquela para comenzar a trabajar con ella.
 Tendrá que cambiar el password (que inicialmente es “usuario”) de acceso a esa máquina remota la primera vez que entre en ella. El username será siempre “usuario”.
