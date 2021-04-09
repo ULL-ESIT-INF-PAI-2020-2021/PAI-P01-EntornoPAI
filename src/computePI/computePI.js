@@ -1,5 +1,5 @@
 /**
- * @author       F. de Sande
+ * @author F. de Sande
  * @since 27.01.2020
  * @since 18.02.2021
  * @see {@link https://towardsdatascience.com/how-to-make-pi-part-1-d0b41a03111f}
@@ -10,7 +10,7 @@
  * Uses prompt and alert for input/output
  */
 
-function calculatePI() {
+const calculatePI = function() {
   let numRectangles = prompt("Enter number of rectangles:", "0");
   if (numRectangles > 0) { 
     let deltaX = 1.0 / numRectangles;
